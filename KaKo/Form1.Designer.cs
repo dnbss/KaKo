@@ -83,15 +83,16 @@
             // ID_CONS
             // 
             this.ID_CONS.Name = "ID_CONS";
-            this.ID_CONS.Size = new System.Drawing.Size(222, 26);
+            this.ID_CONS.Size = new System.Drawing.Size(224, 26);
             this.ID_CONS.Text = "Ввод с клавиатуры";
             this.ID_CONS.Click += new System.EventHandler(this.ID_CONS_Click);
             // 
             // ID_FILE
             // 
             this.ID_FILE.Name = "ID_FILE";
-            this.ID_FILE.Size = new System.Drawing.Size(222, 26);
+            this.ID_FILE.Size = new System.Drawing.Size(224, 26);
             this.ID_FILE.Text = "Ввод из файла";
+            this.ID_FILE.Click += new System.EventHandler(this.ID_FILE_Click);
             // 
             // ID_RED
             // 
