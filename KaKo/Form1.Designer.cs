@@ -115,12 +115,14 @@
             this.ID_F.Name = "ID_F";
             this.ID_F.Size = new System.Drawing.Size(306, 26);
             this.ID_F.Text = "Вид частотной характеристики";
+            this.ID_F.Click += new System.EventHandler(this.ID_F_Click);
             // 
             // ID_IO
             // 
             this.ID_IO.Name = "ID_IO";
             this.ID_IO.Size = new System.Drawing.Size(306, 26);
             this.ID_IO.Text = "Вх/Вых узлы";
+            this.ID_IO.Click += new System.EventHandler(this.ID_IO_Click);
             // 
             // ID_CALC
             // 

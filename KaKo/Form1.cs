@@ -47,6 +47,13 @@ namespace KaKo
                 ofile.ShowDialog(this);
                 ofile.Dispose();
             }
+
+            F f = new F();
+            f.ShowDialog(this);
+            f.Dispose();
+            IO io = new IO();
+            io.ShowDialog(this);
+            io.Dispose();
         }
 
         private void ID_RED_Click(object sender, EventArgs e)
@@ -71,6 +78,26 @@ namespace KaKo
                 return;
             }
             file.Dispose();
+            F f = new F();
+            f.ShowDialog(this);
+            f.Dispose();
+            IO io = new IO();
+            io.ShowDialog(this);
+            io.Dispose();
+        }
+
+        private void ID_F_Click(object sender, EventArgs e)
+        {
+            F f = new F();
+            f.ShowDialog(this);
+            f.Dispose();
+        }
+
+        private void ID_IO_Click(object sender, EventArgs e)
+        {
+            IO io = new IO();
+            io.ShowDialog(this);
+            io.Dispose();
         }
     }
 }
