@@ -83,14 +83,14 @@
             // ID_CONS
             // 
             this.ID_CONS.Name = "ID_CONS";
-            this.ID_CONS.Size = new System.Drawing.Size(224, 26);
+            this.ID_CONS.Size = new System.Drawing.Size(222, 26);
             this.ID_CONS.Text = "Ввод с клавиатуры";
             this.ID_CONS.Click += new System.EventHandler(this.ID_CONS_Click);
             // 
             // ID_FILE
             // 
             this.ID_FILE.Name = "ID_FILE";
-            this.ID_FILE.Size = new System.Drawing.Size(224, 26);
+            this.ID_FILE.Size = new System.Drawing.Size(222, 26);
             this.ID_FILE.Text = "Ввод из файла";
             this.ID_FILE.Click += new System.EventHandler(this.ID_FILE_Click);
             // 
@@ -135,6 +135,7 @@
             this.ID_INTERNET.Name = "ID_INTERNET";
             this.ID_INTERNET.Size = new System.Drawing.Size(227, 26);
             this.ID_INTERNET.Text = "Интернет";
+            this.ID_INTERNET.Click += new System.EventHandler(this.ID_INTERNET_Click);
             // 
             // видToolStripMenuItem1
             // 
@@ -150,12 +151,14 @@
             this.ID_PRIV.Name = "ID_PRIV";
             this.ID_PRIV.Size = new System.Drawing.Size(247, 26);
             this.ID_PRIV.Text = "Собственный браузер";
+            this.ID_PRIV.Click += new System.EventHandler(this.ID_PRIV_Click);
             // 
             // ID_SYS
             // 
             this.ID_SYS.Name = "ID_SYS";
             this.ID_SYS.Size = new System.Drawing.Size(247, 26);
             this.ID_SYS.Text = "Системный браузер";
+            this.ID_SYS.Click += new System.EventHandler(this.ID_SYS_Click);
             // 
             // ID_EXIT
             // 
